@@ -1,7 +1,6 @@
 <template>
 	<view class="content">
-		<image src="
-https://vkceyugu.cdn.bspapp.com/VKCEYUGU-sweet-apply/827ee930-c27c-11ea-b244-a9f5e5565f30.svg" mode=""></image>
+		<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-sweet-apply/827ee930-c27c-11ea-b244-a9f5e5565f30.svg" alt="甜点">
 		<input type="text" v-model="name" class="name" placeholder="" />
 
 		<button @tap="hello()" type="primary">提交</button>
