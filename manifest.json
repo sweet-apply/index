@@ -51,6 +51,9 @@
             "ios" : {},
             /* SDK配置 */
             "sdkConfigs" : {}
+        },
+        "uniStatistics" : {
+            "enable" : false
         }
     },
     /* 快应用特有相关 */
@@ -61,28 +64,49 @@
         "setting" : {
             "urlCheck" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : true
+        }
     },
     "mp-alipay" : {
-        "usingComponents" : true
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : true
+        }
     },
     "mp-baidu" : {
-        "usingComponents" : true
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
     },
     "mp-toutiao" : {
-        "usingComponents" : true
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
     },
     "uniStatistics" : {
         "enable" : false
     },
     "h5" : {
         "router" : {
-            "mode" : "history"
+            "mode" : "history",
+            "base" : "/index/"
         },
         "optimization" : {
             "treeShaking" : {
                 "enable" : true
             }
+        },
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "mp-qq" : {
+        "uniStatistics" : {
+            "enable" : false
         }
     }
 }

@@ -1,9 +1,9 @@
 <template>
 	<view class="content">
+		<image src="
+https://vkceyugu.cdn.bspapp.com/VKCEYUGU-sweet-apply/827ee930-c27c-11ea-b244-a9f5e5565f30.svg" mode=""></image>
 		<input type="text" v-model="name" class="name" placeholder="" />
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+
 		<button @tap="hello()" type="primary">提交</button>
 	</view>
 </template>
